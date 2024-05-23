@@ -2,7 +2,7 @@ def add(String x, String y){
   int value = x.toInteger() + y.toInteger()
   echo "Sum of ${x} and ${y} is ${value.toString()}"
 }
-def mul(x,y){
+def mult(x,y){
   int value = x.toInteger() * y.toInteger()
   echo "Multiplication of ${x} and ${y} is ${value}"
 }
